@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.header h1,.one,.three-1{
+    margin: 15px;
+}
+.header{
+    border: 5px solid green;
+    width: 570px;
+    height: 600px;
+    border-radius: 2px 15px;
+    margin: 10px auto;
+}
+.one::before{
+    content: "Lorem";
+    font-weight: bold;
+    margin-right: 6px; 
+}
+#two{
+    background-color: rgb(118, 187, 255);
+    border-bottom: 5px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    word-spacing: 7px;
+}
+.three{
+    display: inline;
+} 
+.three-1{
+    line-height: 30px;
+}
+#ipsum{
+    display: inline;
+    text-decoration: line-through;
+    margin-left: 7px;
+}
